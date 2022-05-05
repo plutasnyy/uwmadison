@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 
 import cv2
@@ -6,7 +5,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from matplotlib.patches import Rectangle
-import tensorflow as tf
 
 from src.data_processing.constants import KAGGLE_OUTPUT_DATA_PATH, KAGGLE_DATA_PATH
 
